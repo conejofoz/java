@@ -1,0 +1,14 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RotinaLista {
+
+	public static void main(String[] args) {
+		
+		List<> lista = new ArrayList<>();
+
+	}
+
+}

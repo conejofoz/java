@@ -1,0 +1,18 @@
+
+public class FuncoesDeStrings {
+
+	public static void main(String[] args) {
+		
+		String nome = "Silvio coelho";
+		
+		String x1 = nome.toLowerCase();
+		String x2 = nome.toUpperCase();
+		String x3 = nome.trim();
+		
+		System.out.println("Original---: " + nome);
+		System.out.println("Minúscula--:" + x1);
+		System.out.println("Maiúscula--:" + x2);
+		System.out.println("Trim-------: " + x3);
+	}
+
+}

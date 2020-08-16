@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Operadora {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int horas;
+		double valor = 5;
+		double conta;
+		System.out.println("Informe o numero de horas: ");
+		horas = scanner.nextInt();
+		conta = horas * valor;
+		System.out.println("o valor é: R$" + conta);
+
+	}
+
+}
