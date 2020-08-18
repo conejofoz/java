@@ -25,31 +25,25 @@ public class Reservation {
 		
 	}
 
-
 	public Integer getRootNumber() {
 		return rootNumber;
 	}
-
 
 	public void setRootNumber(Integer rootNumber) {
 		this.rootNumber = rootNumber;
 	}
 
-
 	public Date getCheckIn() {
 		return checkIn;
 	}
-
 
 	/*
 	 * public void setCheckIn(Date checkIn) { this.checkIn = checkIn; }
 	 */
 
-
 	public Date getCheckOut() {
 		return checkOut;
 	}
-
 
 	/*
 	 * public void setCheckOut(Date checkOut) { this.checkOut = checkOut; }
@@ -67,10 +61,8 @@ public class Reservation {
 			throw new DomainException("Reservation dates for update must be future dates ");
 		} 
 		
-		
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;
-		
 		
 	}
 	
@@ -86,6 +78,5 @@ public class Reservation {
 				+ duration()
 				+ " nights";
 	}
-	
 	
 }
