@@ -50,7 +50,6 @@ public class Reservation {
 	
 	public long duration() {
 		long diff = checkOut.getTime() - checkIn.getTime();
-		//Converte milesegundos para dias
 		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
 	}
 	
