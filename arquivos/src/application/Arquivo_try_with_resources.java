@@ -7,8 +7,7 @@ public class Arquivo_try_with_resources {
 
 	public static void main(String[] args) {
 		
-		//String caminho = "C:\\in.txt";
-		String caminho = "C:\\PRJ\\PYTHON\\sistema\\manage.py";
+		String caminho = "C:\\in.txt";
 				
 		try(BufferedReader br = new BufferedReader(new FileReader(caminho))) {
 			
