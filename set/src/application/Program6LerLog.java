@@ -1,3 +1,10 @@
+/*
+Nesse exemplo é pego só os usuários distintos pois o HashSet
+não aceita duplicidade
+e o hashcode e equals da classe LogEntry foi feito só pelo atributo name
+coloquei uma cópia do arquivo de log dentro do pacote entities
+*/
+
 package application;
 
 import java.io.BufferedReader;
@@ -35,6 +42,10 @@ public class Program6LerLog {
 			}
 			
 			System.out.println(set.size());
+			
+			for(LogEntry log : set) {
+				System.out.println(log.getMoment());
+			}
 			
 		} catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
