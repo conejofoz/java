@@ -29,7 +29,8 @@ public class ProgramUrna {
 				int newqtd = Integer.parseInt(fields[1]);
 
 				if (votes.containsKey(name)) {
-					int oldqtd = votes.get(name);
+					//se o nome já existir no map pega a quantidade e soma com a nova
+					int oldqtd = votes.get(name); //chave / valor...name é a chave e a quantidade é o valor dessa chave
 					votes.put(name, newqtd + oldqtd);
 				}
 				else {
